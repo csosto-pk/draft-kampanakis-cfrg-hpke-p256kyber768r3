@@ -1,9 +1,9 @@
 ---
-title: "X25519Kyber768Draft00 hybrid post-quantum KEM for HPKE"
-abbrev: "hpke-xyber768d00"
+title: "P256Kyber768r3Draft00 hybrid post-quantum KEM for HPKE"
+abbrev: "hpke-p256kyber768d00"
 category: info
 
-docname: draft-westerbaan-cfrg-hpke-xyber768d00-latest
+docname: draft-kampanakis-cfrg-hpke-p256yber768r3d00
 submissiontype: IRTF
 number:
 date:
@@ -27,15 +27,20 @@ venue:
 
 author:
  -
-    ins: B.E. Westerbaan
-    fullname: Bas Westerbaan
-    organization: Cloudflare
-    email: bas@cloudflare.com
+    ins: Panos Kampanakis
+    fullname: Panos Kampanakis
+    organization: Amazon Web Services
+    email: kpanos@amazon.com
  -
-    fullname: Christopher A. Wood
-    organization: Cloudflare
-    email: caw@heapingbits.net
-
+    ins: Matt Campagna
+    fullname: Matthew Campagna
+    organization: Amazon Web Services
+    email: campagna@amazon.com
+ -
+    ins: Adam Petcher
+    fullname: Adam Petcher
+    organization: Amazon Web Services
+    email: apetcher@amazon.com
 
 normative:
   RFC7748:
